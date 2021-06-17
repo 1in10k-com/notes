@@ -1,2 +1,2 @@
 # notes
-Just some notes for learnning something
+Just some notes for learning something

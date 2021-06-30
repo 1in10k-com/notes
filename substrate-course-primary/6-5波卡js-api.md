@@ -1,0 +1,1 @@
+0030 https://github.com/SubstrateCourse/slides/blob/master/primer/term-05/06-polkadot-js-app-api/README.md

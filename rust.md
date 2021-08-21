@@ -52,3 +52,11 @@ members = [
 lto = true
   </code></pre>
 </details>
+
+<details>
+<summary><mark><font color=darkred>rust-fmt取消格式化时改变代码顺序</font></mark></summary>
+<pre><code>
+创建rustfmt.toml文件,并输入reorder_imports = false
+![](images/2021-08-21-21-24-07.png)
+  </code></pre>
+</details>

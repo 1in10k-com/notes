@@ -19,6 +19,8 @@ chenshuichuan 2020-06-16 19:07:10  8197  收藏 47
 
 整理后的源 /etc/apt/sources.list文件
 
+## 如出现无法安全的用该源进行更新,则将https换为http
+
 # 默认注释了源码仓库，如有需要可自行取消注释
 deb https://mirrors.ustc.edu.cn/ubuntu-ports/ focal main restricted universe multiverse
 # deb-src https://mirrors.ustc.edu.cn/ubuntu-ports/ focal main main restricted universe multiverse

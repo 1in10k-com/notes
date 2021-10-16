@@ -1,0 +1,25 @@
+export http_proxy=http://127.0.0.1:1234
+
+export https_proxy=http://127.0.0.1:1234
+
+git config --global http.proxy 'socks5://127.0.0.1:5678' 
+
+git config --global https.proxy 'socks5://127.0.0.1:5678'
+
+具体端口在qv2ray中查看,此方法重启后就失效
+
+---
+
+用proxychains方式,这样可以在需要指定代理时才指定
+
+sudo apt install proxychains
+
+nano /etc/proxychains.conf 
+
+修改最后字段为 socks5 127.0.0.1 5678
+
+之后在执行命令前输入proxychains则行.如 proxychains git clone ......
+
+---
+
+可以curl cip.cc或curl ip.gs查看当前使用的ip判断是否使用代理.但使用proxychains方法时似乎只有curl ip.gs有效.

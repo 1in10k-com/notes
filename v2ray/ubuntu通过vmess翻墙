@@ -1,0 +1,8 @@
+商店搜索qv2ray下载.
+
+https://github.com/v2fly/v2ray-core/releases/tag/v4.43.0 下载v2ray-linux-64.zip.并解压
+
+在qv2ray内核设置处看到核心文件路径,找到该路径,没有vcore文件夹则创建该文件夹,并把上一步解压获得的文件全放入vcore中.
+
+导入vmess,ubuntu中点设置,网络设置,代理,手动.给http,https,socks设置为127.0.0.1端口为qv2ray中对应的端口.
+
